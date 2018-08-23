@@ -39,7 +39,8 @@ CLASS zcl_abapgit_user_exit IMPLEMENTATION.
     DATA(lv_host) = zcl_abapgit_url=>host( iv_url ).
 
     DATA(lv_destination) = COND rfcdest( WHEN lv_host CS 'gitlab' THEN |GITLAB|
-                                         WHEN lv_host CS 'github' THEN |GITHUB| ).
+                                         WHEN lv_host CS 'github' THEN |GITHUB|
+                                         WHEN lv_host CS 'accenture' THEN |ACCENTURE| ).
 
     IF lv_destination IS INITIAL.
       RETURN.
