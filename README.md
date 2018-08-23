@@ -3,7 +3,7 @@ abapGit user exit to log in Github/Gitlab with RFC automatically
 
 "NO LOGIN ANYMORE"
 
-This is useful only to on your private ABAP developer edition.
+This is useful only if you have a private ABAP developer edition.
 
 **Credits : @Christianguenter2 at https://github.com/larshp/abapGit/issues/1841**
 
